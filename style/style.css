@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+.card-img-overlay {
+  z-index: 2;
+}
+.slider-image {
+  filter: brightness(60%);
+  object-fit: cover;
+  object-position: center;
+  height: 80vh;
+  overflow: hidden;
+}
+.faq {
+  width: 50%;
+}
+
+@media screen and (max-width: 768px) {
+  .slider-image {
+    height: 50vh;
+  }
+  .faq {
+    width: 100%;
+  }
+  .company-logos {
+    display: none;
+  }
+
+}
